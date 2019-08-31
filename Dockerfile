@@ -26,6 +26,9 @@ RUN yarn add node-sass
 
 # vuetify 
 RUN yarn add vuetify
+RUN yarn add @mdi/font
+RUN yarn add ajv
+RUN yarn add material-design-icons-iconfont
 
 # Gemfileを事前にこのDockerfileと同じ場所に用意しておいてください
 ADD ./Gemfile $WORKING_DIR
