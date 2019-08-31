@@ -1,4 +1,9 @@
 # README
+## フロントエンド
+- Vue.js + Vuex + VueRouter + Vuetify
+
+## バックエンド
+- Ruby On Rails
 
 ## 開発環境
 - Docker 19.03.1
