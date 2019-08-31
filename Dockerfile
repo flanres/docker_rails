@@ -24,6 +24,9 @@ RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
 # Cannot find module node-sass対策
 RUN yarn add node-sass
 
+# vuetify 
+RUN yarn add vuetify
+
 # Gemfileを事前にこのDockerfileと同じ場所に用意しておいてください
 ADD ./Gemfile $WORKING_DIR
 # Gemfile.lockの中身は空で
